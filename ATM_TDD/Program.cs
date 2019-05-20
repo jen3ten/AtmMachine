@@ -7,7 +7,6 @@ namespace ATM_TDD
         static void Main(string[] args)
         {
             Console.WriteLine("ATM Machine");
-            bool showMenu = true;
             Atm atm = new Atm();
 
             do
