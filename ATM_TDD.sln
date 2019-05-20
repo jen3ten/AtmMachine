@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATM_TDD", "ATM_TDD\ATM_TDD.csproj", "{83E48BF4-841C-40A9-8C6E-DE2FA9A7058B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATM_TDD.Tests", "ATM_TDD.Tests\ATM_TDD.Tests.csproj", "{F41AC24A-52C9-4E20-A264-AA963EA0179E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83E48BF4-841C-40A9-8C6E-DE2FA9A7058B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83E48BF4-841C-40A9-8C6E-DE2FA9A7058B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83E48BF4-841C-40A9-8C6E-DE2FA9A7058B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83E48BF4-841C-40A9-8C6E-DE2FA9A7058B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F41AC24A-52C9-4E20-A264-AA963EA0179E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F41AC24A-52C9-4E20-A264-AA963EA0179E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F41AC24A-52C9-4E20-A264-AA963EA0179E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F41AC24A-52C9-4E20-A264-AA963EA0179E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9B7D62EE-4566-4084-95ED-0275DACCB381}
+	EndGlobalSection
+EndGlobal
