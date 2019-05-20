@@ -9,47 +9,44 @@ namespace ATM_TDD.Tests
         [Fact]
         public void CheckBalance_Should_Return_Balance_Of_0()
         {
-            Atm sut = new Atm();
+            // Arrange
 
-            int actualBalance = sut.CheckBalance();
+            // Act
 
-            Assert.Equal(0, actualBalance);
-      
+            // Assert
         }
 
         //check balance should return 200 for balance
         [Fact]
         public void CheckBalance_Should_Return_Balance_Of_200()
         {
-            Atm sut = new Atm(200);
+            // Arrange
 
-            int actualBalance = sut.CheckBalance();
+            // Act
 
-            Assert.Equal(200, actualBalance);
+            // Assert
         }
 
         //withdrawal should reduce balance by exactly 10 dollars
         [Fact]
         public void Withdraw_Should_Reduce_Balance_by_10_Dollars()
         {
-            Atm sut = new Atm(200);
+            // Arrange
 
-            sut.Withdraw();
-            int actualBalance = sut.CheckBalance();
+            // Act
 
-            Assert.Equal(190, actualBalance);
+            // Assert
         }
 
         //deposit should increase balance by exactly 50 dollars
         [Fact]
         public void Deposit_Should_Increase_Balance_by_50_Dollars()
         {
-            Atm sut = new Atm(200);
+            // Arrange
 
-            sut.Deposit();
-            int actualBalance = sut.CheckBalance();
+            // Act
 
-            Assert.Equal(250, actualBalance);
+            // Assert
         }
 
     }
